@@ -22,7 +22,7 @@
 #ifndef JSON_STREAMER_H
 #define JSON_STREAMER_H
 
-#include <json_tools.h>
+#include "json_tools.h"
 #include "configuration.h"
 
 #include <string>

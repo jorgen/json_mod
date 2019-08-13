@@ -1,4 +1,4 @@
-file(GLOB SRC_FILES ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
-file(GLOB HEADER_FILES ${CMAKE_CURRENT_SOURCE_DIR}/*.h)
-add_executable(jsonmod ${SRC_FILES} ${HEADER_FILES} ${JSONTOOLS_FILES})
-target_include_directories(jsonmod PRIVATE ${JSON_TOOLS_INCLUDE_DIR})
+cmake_minimum_required(VERSION 3.14)
+project(json_mod)
+set(CMAKE_CXX_STANDARD 11)
+add_subdirectory(src)
